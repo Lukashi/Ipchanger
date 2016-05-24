@@ -58,7 +58,7 @@ public class Main {
     private JTabbedPane tabbedPane2;
 
     public static void main(String[] args) {
-        JFrame frame = new JFrame("Main");
+        JFrame frame = new JFrame("IPChanger");
         frame.setContentPane(new Main().panel1);
         frame.setPreferredSize(new Dimension(600,400));
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
